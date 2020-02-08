@@ -5,7 +5,7 @@ export const Header = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Box as="header" borderBottomWidth="1px" width="full">
+    <Box as="header" borderBottomWidth="1px">
       <Flex align="center" justify="flex-end">
         <IconButton
           aria-label={`Switch to ${
