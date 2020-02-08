@@ -15,13 +15,45 @@
   "devDependencies": {
     "@types/node": "^13.7.0",
     "@types/react": "^16.9.19",
-    "typescript": "^3.7.5"
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint-config-xo-react": "^0.22.0",
+    "eslint-config-xo-typescript": "^0.26.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "typescript": "^3.7.5",
+    "xo": "^0.25.3"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "xo": {
+    "prettier": true,
+    "space": 2,
+    "extends": [
+      "xo-react",
+      "xo-typescript/space"
+    ],
+    "extensions": [
+      "ts",
+      "tsx"
+    ],
+    "rules": {
+      "@typescript-eslint/quotes": [
+        "error",
+        "double"
+      ],
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "sort-imports": "off",
+      "import/order": "off"
+    }
+  },
+  "prettier": {
+    "singleQuote": false,
+    "bracketSpacing": true
   },
   "repository": {
     "type": "git",
@@ -33,5 +65,5 @@
   "bugs": {
     "url": "https://github.com/penumbra1/spyre/issues"
   },
-  "homepage": "https://github.com/penumbra1/spyre#readme"
+  "homepage": "https: //github.com/penumbra1/spyre#readme"
 }
