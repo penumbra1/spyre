@@ -8,7 +8,7 @@ import {
 
 import { Header } from "./header";
 
-export default ({ children }) => (
+export const Layout = ({ children }) => (
   <ThemeProvider>
     <ColorModeProvider>
       <CSSReset />
