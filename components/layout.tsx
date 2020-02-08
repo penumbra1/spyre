@@ -1,9 +1,19 @@
 import React from "react";
-import { ThemeProvider, CSSReset } from "@chakra-ui/core";
+import {
+  ThemeProvider,
+  CSSReset,
+  ColorModeProvider,
+  Box
+} from "@chakra-ui/core";
 
-export default ({ children }) => (
+import { Header } from "./header";
+
+export const Layout = ({ children }) => (
   <ThemeProvider>
-    <CSSReset />
-    {children}
+    <ColorModeProvider>
+      <CSSReset />
+      <Header />
+      <Box as="main">{children}</Box>
+    </ColorModeProvider>
   </ThemeProvider>
 );
