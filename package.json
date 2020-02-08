@@ -1,0 +1,33 @@
+{
+  "name": "spyre",
+  "version": "1.0.0",
+  "description": "Your visual inspiration, uninterrupted",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penumbra1/spyre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penumbra1/spyre/issues"
+  },
+  "homepage": "https://github.com/penumbra1/spyre#readme"
+}
