@@ -1,6 +1,7 @@
 import React from "react";
-import Layout from "../components/layout";
 import { Text } from "@chakra-ui/core";
+
+import Layout from "../components/layout";
 
 const Home = () => (
   <Layout>
