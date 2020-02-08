@@ -13,7 +13,6 @@ export const Header = () => {
           } mode`}
           variant="ghost"
           m={2}
-          color="current"
           fontSize="20px"
           onClick={toggleColorMode}
           icon={colorMode === "light" ? "moon" : "sun"}
