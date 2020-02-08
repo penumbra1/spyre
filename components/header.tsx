@@ -6,7 +6,7 @@ export const Header = () => {
 
   return (
     <Box as="header" borderBottomWidth="1px">
-      <Flex align="center" justify="flex-end">
+      <Flex justify="flex-end">
         <IconButton
           aria-label={`Switch to ${
             colorMode === "light" ? "dark" : "light"
